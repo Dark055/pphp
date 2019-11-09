@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+    <form name="test" action="check.php" method="post">  <!-- method="post" - не отображает информацию в адресной строке   method="get" - отображает информацию в адресной строке  $_POST   $_GET -->
+        <label for="">Name: </label>
+        <input type="text" name="name" placeholder="Name">
+        <br>
+        
+        <label for="">Email: </label>
+        <input type="text" name="email" placeholder="Email">
+        <br>
+        
+        <label for="">Message: </label>
+        <br>
+        <textarea name="message" id="" cols="40" rows="20"></textarea>
+        
+        <br>
+        <input type="submit" name="done" value="Готово">
+    </form>
+
+</body>
+</html>
